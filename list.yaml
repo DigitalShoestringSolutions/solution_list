@@ -2,3 +2,6 @@ shoestring:
   power_monitoring:
     url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
     branch: experiment/assembler
+  downtime:
+    url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
+    tag: v1.2.0
