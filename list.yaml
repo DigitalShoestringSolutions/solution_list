@@ -1,0 +1,4 @@
+shoestring:
+  power_monitoring:
+    url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
+    branch: experiment/assembler
