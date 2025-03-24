@@ -1,10 +1,22 @@
-shoestring:
-  - name: Power Monitoring
-    url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
-    branch: experiment/assembler
-  - name: Downtime Monitoring
-    url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
-    tag: v1.2.0
-  - name: Scrap Monitoring
-    url: https://github.com/DigitalShoestringSolutions/ScrapMonitoring
-    tag: v1.1.0
+providers:
+  shoestring:
+    name: Shoestring
+    solutions:
+      - name: Power Monitoring
+        url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
+        branch: experiment/assembler
+      - name: Downtime Monitoring
+        url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
+        tag: v1.2.0
+      - name: Scrap Monitoring
+        url: https://github.com/DigitalShoestringSolutions/ScrapMonitoring
+        tag: v1.1.0
+  other:
+    name: Some other provider
+    solutions:
+      - name: Power Monitoring
+        url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
+        branch: experiment/assembler
+      - name: Downtime Monitoring
+        url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
+        tag: v1.2.0
