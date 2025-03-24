@@ -7,3 +7,7 @@ shoestring:
     name: Downtime Monitoring
     url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
     tag: v1.2.0
+  scrap:
+    name: Scrap Monitoring
+    url: https://github.com/DigitalShoestringSolutions/ScrapMonitoring
+    tag: v1.1.0
