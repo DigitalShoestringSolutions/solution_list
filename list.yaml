@@ -1,13 +1,10 @@
 shoestring:
-  power_monitoring:
-    name: Power Monitoring 
+  - name: Power Monitoring
     url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
     branch: experiment/assembler
-  downtime:
-    name: Downtime Monitoring
+  - name: Downtime Monitoring
     url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
     tag: v1.2.0
-  scrap:
-    name: Scrap Monitoring
+  - name: Scrap Monitoring
     url: https://github.com/DigitalShoestringSolutions/ScrapMonitoring
     tag: v1.1.0
