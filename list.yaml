@@ -4,10 +4,10 @@ providers:
     solutions:
       - name: Power Monitoring
         url: https://github.com/DigitalShoestringSolutions/PowerMonitoring
-        branch: experiment/assembler
+        minimum_version: v1.0.0
       - name: Downtime Monitoring
         url: https://github.com/DigitalShoestringSolutions/DowntimeMonitoring
-        tag: v1.2.0
+        minimum_version: v1.0.0
       - name: Scrap Monitoring
         url: https://github.com/DigitalShoestringSolutions/ScrapMonitoring
-        tag: v1.1.0
+        minimum_version: v1.0.0
